@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Create Land Record</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+</head>
+<body>
+
+        <div id="heading1" class="text-center container-fluid ">
+                <h1 id="heading"> Land Records</h1>
+                
+        </div>
+        <br><br>
+        <div class="jumbotron text-center container">
+            <h3><strong>Search for a Land Record:</strong></h3>
+            <h4 id="test"> test 717b8ac29de762662f62a57df7ef0ad19e2312237c8d48f7a0674a1e46914749</h4>
+            <br>
+
+            <form onSubmit="App.search(); return false;">
+
+                <div class="form-group">
+                        <label for="Cid">Search by Citizen ID:</label>
+                        <input type="text" class="form-control" id="Cid" placeholder="Enter Citizen ID" name="Cid">
+                </div>
+               
+                
+                <button type="submit" class="btn btn-default">Search</button>
+              </form>
+
+
+
+        </div>
+
+        <div class="jumbotron text-center container" style="font-family:'Times New Roman', Times, serif;">
+        <h2 id="test3"></h2>
+        </div>
+
+</body>
+
+<style type="text/css">
+    #heading{
+                font-family: 'Lobster','Cursive';
+                color:azure;
+                font-size:70px;
+                
+            }
+    #heading1{
+        background-color: brown;
+        padding: 100px 25px;
+    }
+    a { color: inherit; } 
+    </style>
+
+     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+     <!-- Include all compiled plugins (below), or include individual files as needed -->
+     <script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+     <script src="vendor/truffle-contract/dist/truffle-contract.js"></script>
+     <script src="app.js"></script>
+
+</html>
